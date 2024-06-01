@@ -1,6 +1,8 @@
 import React from "react";
 
+
 const Trending = () => {
+    
   return (
     <>
       <section className="text-gray-600 body-font">
@@ -19,6 +21,7 @@ const Trending = () => {
               food truck ugh squid celiac humblebrag.
             </p>
           </div>
+          
           <div className="flex flex-wrap -m-4">
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
