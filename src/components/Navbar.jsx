@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <div className=" bg-white">
-        <nav className="2xl:container 2xl:mx-auto sm:py-6 sm:px-7 py-5 px-4">
+        <nav className="2xl:container 2xl:mx-auto sm:py-6 sm:px-7 py-5 px-4 shadow-md">
           {/* For large and Medium-sized Screen */}
           <div className="flex justify-between ">
             <div className="hidden sm:flex flex-row items-center space-x-6">
