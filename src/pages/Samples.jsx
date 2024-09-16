@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const Samples = () => {
   const links = [
@@ -35,14 +36,14 @@ const Samples = () => {
       {/* Links Section */}
       <div className="relative z-10 w-full max-w-xs space-y-4">
         {links.map((link, index) => (
-          <a
+          <Link
             key={index}
-            href={link.url}
+            to={link.url}
             className="block w-full text-center py-3 text-lg font-semibold bg-white bg-opacity-70 rounded-lg shadow-lg hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1"
             rel="noopener noreferrer"
           >
             {link.title}
-          </a>
+          </Link>
         ))}
       </div>
 
