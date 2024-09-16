@@ -6,7 +6,7 @@ const Samples = () => {
     { title: "Male Shoes", url: "/male-shoes" },
     { title: "Female Shoes", url: "/female-shoes" },
     // { title: 'Male Trousers', url: 'https://twitter.com/your-profile' },
-    { title: "Female Dresses", url: "/dresses" },
+    { title: "Female Fashion", url: "/dresses" },
     { title: "Male Fashion", url: "/male-fashion" },
     { title: "Kids", url: "/kids" },
     { title: "Others", url: "/others" },
