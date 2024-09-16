@@ -38,7 +38,7 @@ const Gallery = ({ details: { image } }) => {
             <img
               src={selectedImage}
               alt="Selected"
-              className="w-auto h-auto max-w-3xl max-h-screen rounded-lg shadow-lg"
+              className="w-auto h-auto max-h-screen rounded-lg shadow-lg"
             />
             <button
               onClick={closeModal}

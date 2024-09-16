@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { client } from "../client";
 import { dressQuery } from "../lib";
 import Gallery from "../components/Gallery";
+import { FaArrowLeft } from "react-icons/fa";
 
 const Dress = () => {
   const [items, setItems] = useState([]);
@@ -33,6 +34,7 @@ const Dress = () => {
         ></div>
 
         {/* Image Gallery Header */}
+        
         <div className="relative z-10 text-center mb-10 p-6 bg-white bg-opacity-20 backdrop-blur-lg rounded-xl shadow-xl border border-white/30">
           <h1 className="text-3xl font-bold text-white">Image Gallery</h1>
           <p className="text-gray-100 mt-2">
